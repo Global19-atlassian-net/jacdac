@@ -15,7 +15,7 @@ Allows flashing (reprogramming) modules over JACDAC.
     }
 
 The `service_class` is always `0x1ffa9948`. The `firmware_identifier` identifies the kind of firmware
-that "fits" this device.
+that "fits" this module.
 
     command set_session @ 0x81 {
         session_id: u32
