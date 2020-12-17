@@ -13,7 +13,7 @@
 
 /**
  * No args. The `service_class` is always `0x1ffa9948`. The `firmware_identifier` identifies the kind of firmware
- * that "fits" this device.
+ * that "fits" this module.
  */
 #define JD_BOOTLOADER_CMD_INFO JD_CMD_ANNOUNCE
 

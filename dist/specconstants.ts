@@ -332,7 +332,7 @@ export enum BootloaderError { // uint32_t
 export enum BootloaderCmd {
     /**
      * No args. The `service_class` is always `0x1ffa9948`. The `firmware_identifier` identifies the kind of firmware
-     * that "fits" this device.
+     * that "fits" this module.
      */
     Info = 0x0,
 
